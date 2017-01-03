@@ -3,12 +3,10 @@
 """The module provides two functions, fizzbuzz and fizzbuzz_extended
 """
 from __future__ import print_function
-import os
-os
 
 
 def fizzbuzz(n):
-    """return a fizzbuzz-formatted representation of n"""
+    """Return a fizzbuzz-formatted representation of n."""
     if n == 0:
         return str(0)
     out = ''
@@ -22,7 +20,7 @@ def fizzbuzz(n):
 
 
 def fizzbuzz_extended(n, additional={}):
-    """return a fizzbuzz-formatted representation of n, with extensions
+    """Return a fizzbuzz-formatted representation of n, with extensions.
 
     If passed, the `additional` arg should be a dictionary keyed by integer
     with the values being the desired string substitution for that integer
