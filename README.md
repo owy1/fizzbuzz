@@ -1,21 +1,16 @@
-********
-FizzBuzz
-********
+# FizzBuzz
 
-.. image:: https://travis-ci.org/cewing/fizzbuzz.svg?branch=master
-    :target: https://travis-ci.org/cewing/fizzbuzz
+[![Build Status](https://travis-ci.org/nhuntwalker/fizzbuzz.svg?branch=master)](https://travis-ci.org/nhuntwalker/fizzbuzz)
 
 A pair of simple example functions that implement the fizzbuzz game.
 
-``fizzbuzz``
-============
+## fizzbuzz
 
-For any given 'n', print 'Fizz' if n is divisible by 3, 'Buzz' if n is
-divisible by 5, and 'FizzBuzz' if in is divisible by *both* 3 and 5. For all
-other numbers, print that number.
+For any given `n`, print `Fizz` if `n` is divisible by 3, `Buzz` if `n` is
+divisible by 5, and `FizzBuzz` if `n` is divisible by *both* 3 and 5. 
+For all other numbers, print that number.
 
-.. code-block:: pycon
-
+```python
 
     >>> from fizzbuzz import fizzbuzz
     >>> for i in range(16):
@@ -37,15 +32,15 @@ other numbers, print that number.
     13
     14
     FizzBuzz
+```
 
 
-``fizzbuzz_extended``
-=====================
+## fizzbuzz_extended
 
-Implement the FizzBuzz game, but allow arbitrary extensions.  For example,
-numbers divisible by seven should print as 'Sezz'.
+Implement the FizzBuzz game, but allow arbitrary extensions.
+For example, numbers divisible by seven should print as 'Sezz'.
 
-.. code-block:: pycon
+```python
 
     >>> from fizzbuzz import fizzbuzz_extended
     >>> extras = {7: 'Sezz'}
@@ -68,5 +63,5 @@ numbers divisible by seven should print as 'Sezz'.
     13
     Sezz
     FizzBuzz
-
+```
 
