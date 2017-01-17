@@ -11,7 +11,7 @@ FIZZBUZZ_TABLE = [
     (15, "FizzBuzz"),
     (16, "16"),
     (20, "Buzz"),
-    (21, "Buzz")
+    (21, "Fizz")
 ]
 
 
