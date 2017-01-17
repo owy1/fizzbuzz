@@ -8,7 +8,9 @@ FIZZBUZZ_TABLE = [
     (5, "Buzz"),
     (6, "Fizz"),
     (10, "Buzz"),
-    (15, "FizzBuzz")
+    (15, "FizzBuzz"),
+    (16, "16"),
+    (20, "Buzz")
 ]
 
 
