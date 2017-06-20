@@ -4,6 +4,7 @@ import pytest
 FIZZBUZZ_TABLE = [
     (0, "0"),
     (1, "1"),
+    (2, "2"),
     (3, "Fizz"),
     (5, "Buzz"),
     (6, "Fizz"),
@@ -11,7 +12,8 @@ FIZZBUZZ_TABLE = [
     (15, "FizzBuzz"),
     (16, "16"),
     (20, "Buzz"),
-    (21, "Fizz")
+    (21, "Fizz"),
+    (25, "Buzz")
 ]
 
 
