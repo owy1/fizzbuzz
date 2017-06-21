@@ -1,6 +1,6 @@
 # FizzBuzz
 
-[![Build Status](https://travis-ci.org/nhuntwalker/fizzbuzz.svg?branch=master)](https://travis-ci.org/nhuntwalker/fizzbuzz)
+[![Build Status](https://travis-ci.org/owy1/fizzbuzz.svg?branch=master)](https://travis-ci.org/owy1/fizzbuzz)
 
 
 A pair of simple example functions that implement the fizzbuzz game.
